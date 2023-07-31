@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-aqua-gradient {
+    background: #00C4CC;
+background: linear-gradient(to bottom right, #00C4CC 0%, #0A1A44 100%);
+
+}
+.section-div {
+    @apply max-w-6xl py-6 px-9 mx-auto
+}
+.col2-div {
+    @apply w-full md:w-1/2
+}
+.middle-feature {
+    background-color: #071332;
+    color: #57E4FF;
+}
+.side-feature {
+    background-color: #0A1A44;
+    color: white;
+}
+.feature-circle {
+    background-color: #00C4CC;
+    color: #0A1A44;
+}
+.blockquote:before {
+    content: "“";
+    font-size: 4rem;
+    position: absolute;
+    left: 0rem;
+    top: -4.5rem;
+    color: #57E4FF;
+  }
+  .blockquote, .color-blue {
+    color: #57E4FF;
+  }
+  .contactus-div {
+    background-color: #142140;
+  }
+  .downlaod-app-container {
+    position: absolute;
+    bottom: 30px;
+  }
+  .imgMd {
+    height: 5.3rem;
+  }
+  
+  .imgDef {
+    height: 3.3rem;
+  }
+  
