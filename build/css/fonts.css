@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Garbata Trial';
+  src: url('font-files/GarbataTrial-Black.woff2') format('woff2'),
+    url('font-files/GarbataTrial-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Didact Gothic Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Didact Gothic Regular'), url('font-files/DidactGothic-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Didact Gothic Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Didact Gothic Medium'), url('font-files/DidactGothic.woff') format('woff');
+  }
+
+.font-garbata-trial {
+  font-family: 'Garbata Trial';
+}
+.font-garbata-medium {
+  font-family: 'Didact Gothic Medium';
+}
+.font-garbata-regular, body {
+  font-family: 'Didact Gothic Regular';
+}
