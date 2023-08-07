@@ -12,22 +12,54 @@
   font-style: normal;
   font-weight: normal;
   src: local('Didact Gothic Regular'), url('font-files/DidactGothic-Regular.woff') format('woff');
-  }
-  
+}
 
-  @font-face {
+
+@font-face {
   font-family: 'Didact Gothic Medium';
   font-style: normal;
   font-weight: normal;
   src: local('Didact Gothic Medium'), url('font-files/DidactGothic.woff') format('woff');
-  }
+}
 
 .font-garbata-trial {
   font-family: 'Garbata Trial';
 }
+
 .font-garbata-medium {
   font-family: 'Didact Gothic Medium';
 }
-.font-garbata-regular, body {
+
+.font-garbata-regular
+{
   font-family: 'Didact Gothic Regular';
+}
+
+/**************************************************/
+/* Health and Wellness  */
+/**************************************************/
+
+@font-face {
+  font-family: 'CMU Serif Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('CMU Serif Roman'), url('font-files/cmunrm.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('font-files/Fraunces-9ptBlack.woff2') format('woff2'),
+      url('font-files/Fraunces-9ptBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+.font-fraunces
+{
+  font-family: 'Didact Gothic Regular';
+}
+
+.font-cmu-serif
+{
+  font-family: 'CMU Serif';
 }

@@ -62,3 +62,16 @@ background: linear-gradient(to bottom right, #00C4CC 0%, #0A1A44 100%);
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .bgs-light {
+    background-color: #F4F1EC;
+  }
+  .bgs-pink {
+    background-color: #EBDAD2;
+  }
+  .bgs-green {
+    background-color: #717254;
+  }
+  .t-green {
+    color: #717254;
+  }
